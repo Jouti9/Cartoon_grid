@@ -1,0 +1,295 @@
+body {
+    background-color: rgb(44, 42, 42);
+    margin: auto;
+    background-image: url(BG_2.jpeg);
+    background-attachment: scroll; 
+    
+}
+
+main {
+    width: 60vw;
+    height: 100vw;
+    margin: auto;
+    margin-top: 10%;
+
+}
+
+nav div{
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    margin: auto;
+}
+
+section {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    Gap: 20px;
+    height: 700px;
+    margin-bottom: 560px;
+    
+}
+
+footer {
+    display: grid;
+    grid-template-columns: auto auto;
+    Gap: 20px;
+    height: 700px;
+}
+
+#one {
+    grid-column: span 3;
+    display: flex;
+    background-color: bisque;
+    width: 895px;
+    flex-direction: column;
+    padding: 30px;
+    height: 300px;
+    
+
+}
+
+#one h1{
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+#one button {
+    width: 100px;
+    background-color: white;
+    color: black;
+    border: 2px solid #4f4f4f; /* Green */
+}
+
+#one p{ 
+    margin-bottom: auto;
+    margin-top: 0;
+}
+
+#span_one {
+    margin-top: auto;
+    margin-bottom: 10px;
+}
+
+#span_two {
+    display: flex;
+    justify-content: center;
+}
+
+
+#two {
+    
+    background-color: bisque;
+    width: 260px;
+    height: 260px;
+    padding: 10px;
+   
+
+
+}
+
+#three {
+    grid-column: span 2;
+    background-color: bisque;
+    width: 620px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+
+
+}
+
+#three h1 {
+    margin-bottom: 5px;
+}
+
+#three p {
+    margin-bottom: auto;
+    margin-top: 0%;
+}
+
+#three span{
+    margin-top: auto;
+    margin-bottom: 10px;
+}
+
+#three button {
+    width: 100px;
+}
+
+
+#four {
+    grid-column: span 2;
+    background-color: bisque;
+    width: 590px;
+    height: 236px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    
+
+
+}
+
+#four h1 {
+    margin-bottom: 5px;
+}
+
+#four p {
+    margin-bottom: auto;
+    margin-top: 0;
+}
+
+#four span {
+    margin-top: auto;
+    margin-bottom: 10px;
+}
+
+#four button {
+    width: 100px;
+}
+
+
+
+#five {
+    grid-row: span 2;
+    background-color: bisque;
+    height: 535px;
+    width: 310px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    
+
+
+}
+
+#five h1{
+    margin-bottom: 5px;
+}
+
+#five p{
+    margin-bottom: auto;
+    margin-top: 0;
+}
+
+#five span{
+    margin-top: auto;
+    margin-bottom: 10px;
+}
+
+#five button{
+    width: 100px;
+}
+
+
+#six {
+    background-color: bisque;
+    width: 270px;
+    height: 260px;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+
+
+}
+
+#h_six {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#sixButton {
+    display: flex;
+    flex-direction: column;
+    ;
+
+}
+
+
+
+#seven {
+    background-color: bisque;
+    width: 280px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+   
+
+    
+
+}
+
+
+
+#eight {
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+    height: 236px;
+    width: 450px;
+    padding: 10px;
+   
+
+
+
+}
+
+#eight h1{
+    margin-bottom: 5px;
+}
+
+#eight p{
+    display: flex;
+    margin-bottom: auto;
+    margin-top: 0;
+}
+
+#eight span {
+    display: flex;
+    margin-top: auto;
+    margin-bottom: 10px;
+}
+
+#eight button{
+    width: 100px;
+}
+
+#nine {  
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+    height: 236px;
+    width: 455px;
+    padding: 10px;
+    
+
+    
+}
+
+#nine h1{
+    margin-bottom: 5px;
+}
+
+#nine p{
+    display: flex;
+    margin-bottom: auto;
+    margin-top: 0;
+}
+
+#nine span {
+    display: flex;
+    margin-top: auto;
+    margin-bottom: 10px;
+}
+
+#nine button{
+    width: 100px;
+}
+
